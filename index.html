@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jeddah Foundation | Grandmother of Humanity</title>
+
+<meta name="description" content="Jeddah Foundation is dedicated to uplifting lives, nurturing compassion, and building a better future through humanity-driven initiatives.">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header">
+  <nav class="navbar">
+
+    <a href="index.html" class="logo-container">
+      <img src="assets/logo.png" class="logo" alt="Jeddah Foundation Logo">
+      <span class="brand-text">Jeddah Foundation</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active" data-key="home">Home</a></li>
+
+      <li class="dropdown">
+        <a href="#" data-key="messages">Messages ▼</a>
+        <ul class="dropdown-menu">
+          <li><a href="chairman.html">Chairman</a></li>
+          <li><a href="founder.html">Founder Director</a></li>
+          <li><a href="chief-advisor.html">Assistant Chairman</a></li>
+          <li><a href="managing-director.html">Managing Director</a></li>
+          <li><a href="assistant-advisor.html">Assistant Chief Advisor</a></li>
+        </ul>
+      </li>
+
+      <li><a href="projects.html" data-key="oic">Projects</a></li>
+      <li><a href="contact.html" data-key="contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <div class="flag-toggle">
+        <span class="flag active" onclick="setLang('en', this)">EN</span>
+        <span class="flag" onclick="setLang('bn', this)">বাংলা</span>
+      </div>
+
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+
+  </nav>
+</header>
+
+<!-- ===================== INTRO ===================== -->
+<section class="intro-parallax fade">
+  <div class="intro-overlay"></div>
+
+  <div class="intro-content">
+    <h1>Welcome to Jeddah Foundation</h1>
+    <p>Uplifting Lives, Nurturing Compassion</p>
+  </div>
+</section>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <video autoplay muted loop playsinline id="heroVideo">
+    <source src="assets/jeddafundation.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="hero-content fade">
+    <h1 data-key="title">JEDDAH FOUNDATION</h1>
+
+    <p data-key="tagline">Grandmother of Humanity</p>
+
+    <p class="description">
+      At Jeddah Foundation, we are dedicated to nurturing compassion, wisdom, and community.
+      Inspired by the timeless care and guidance of a grandmother, we strive to uplift lives,
+      foster human dignity, and create a legacy of kindness for generations to come.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section fade">
+  <h2>Who We Are</h2>
+  <p style="max-width: 800px; margin: auto;">
+    Jeddah Foundation is a humanitarian organization committed to empowering communities,
+    spreading compassion, and fostering sustainable development. We believe in the power of unity,
+    kindness, and visionary leadership to create meaningful change.
+  </p>
+</section>
+
+<!-- ===================== OIC MESSAGE ===================== -->
+<section id="oic" class="section fade oic-section">
+  <h2>Message from OIC</h2>
+
+  <div class="oic-container">
+    <div class="oic-photo">
+      <img src="assets/OISAllcounrty.jpeg" alt="All OIC Countries">
+      <p class="oic-caption">All countries of OIC </p>
+    </div>
+
+    <div class="oic-message">
+      <p>
+        "The Organization of Islamic Cooperation (OIC) recognizes the invaluable contributions of
+        Jeddah Foundation in promoting humanitarian efforts and fostering sustainable development
+        within communities. Through dedication, compassion, and visionary leadership, your
+        initiatives align with our shared goal of uplifting lives and spreading hope across nations."
+      </p>
+      <p class="oic-author">— Organization of Islamic Cooperation (OIC)</p>
+      <a href="https://www.oic-oci.org/states/?lan=en" target="_blank" class="btn">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section class="section fade">
+  <h2>Join Our Mission</h2>
+  <p>Be part of a movement that spreads humanity, compassion, and hope.</p>
+  <a href="contact.html" class="btn">Get Involved</a>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+
+  <div class="footer-col">
+    <h3>Jeddah Foundation</h3>
+    <p>Empowering humanity through compassion and innovation.</p>
+  </div>
+
+  <div class="footer-col">
+    <h3>Quick Links</h3>
+    <p><a href="index.html">Home</a></p>
+    <p><a href="#oic">OIC Message</a></p>
+    <p><a href="contact.html">Contact</a></p>
+  </div>
+
+  <div class="footer-col">
+    <h3>Contact</h3>
+    <p>Gulshan-2, Dhaka, Bangladesh</p>
+    <p>+880</p>
+    <p>info@jeddahfoundation.org</p>
+  </div>
+
+</footer>
+
+<!-- ===================== SCRIPT ===================== -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
